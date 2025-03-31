@@ -832,8 +832,7 @@ header ul li a {
 }
 
 /* Responsive For Tablet */
-
-@media screen and (min-width :786px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 
     .hero {
         height: 60vh;
