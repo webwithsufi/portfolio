@@ -55,7 +55,7 @@ header {
     height: 70px;
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
-    box-shadow: 0 0 15px #17a1de68;
+    /* box-shadow: 0 0 15px #17a1de68; */
     padding: 0 30px;
     z-index: 99999;
 }
@@ -685,7 +685,7 @@ header ul li a {
     }
 
     .hero-video-box video {
-        right: 85px;
+        right: 70px;
         height: 40%;
     }
 
@@ -833,7 +833,7 @@ header ul li a {
 
 /* Responsive For Tablet */
 
-@media (max-width: 1024px) {
+@media screen and (min-width :786px) {
 
     .hero {
         height: 60vh;
